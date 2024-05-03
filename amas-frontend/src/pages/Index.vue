@@ -51,13 +51,53 @@
     <img src="https://imgur.com/E2pFPXH.png" class="history">
   </div>
 
-    
+    <div>
+        <h2>Somos uma organização sem fins lucrativos que promove 
+        a inclusão de pessoas LGBTI+  na sociedade.</h2>
+
+        <div class="blue-container">
+            
+            <div class="information">
+
+                <h2>Existimos Por que</h2>
+                <p>Queremos empoderar a comunidade LGBTI+, educar a sociedade e transformar o Brasil em um país realmente inclusivo e sem discriminação. As estatísticas mostram que a LGBTIFobia no Brasil é um problema real e que precisamos combatê-la já.</p>
+
+            </div>
+
+            <div>
+
+                <div>
+                    <span>A cada 26 Horas</span>
+                    <p>uma pessoa LGBTI+ é assassinada ou se suicida no Brasil</p>
+                </div>
+                <div>
+                    <span>Mais da metade</span>
+                    <p>dos assassinatos de pessoas LGBTI+ no mundo ocorrem no Brasil</p>
+                </div>
+                <div>
+                    <span>67% dos Assassinatos</span>
+                    <p>são direcionados contra travestis e mulheres transexuais</p>
+                </div>
+                <div>
+                    <span>118 mortes por ano</span>
+                    <p>é a média brasileira de assassinatos de pessoas trans entre 2008 e 2019</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
    </div>
     
         
     </template>
     
     <style scoped>
+        
+    *{
+        margin: 0;
+    
+    }
     nav{
         font-family: "Quicksand", sans-serif;
       font-optical-sizing: auto;
@@ -73,7 +113,6 @@
     
     }
     .body {
-    max-width: 100vw;
     height: 100vh;
     background-image: url("https://imgur.com/NbV3RFk.png");
     background-size: cover;
@@ -86,18 +125,45 @@
 }
 
 .history{
-    width: 50%;
+    width: 45%;
     
-}
-
-*{
-    margin: 0;
-   
 }
 
 .images-container .banner{
     width: 100%;
 }
+.blue-container{
+    background-color: #2EBDB3;
+}
+.information{
+    text-align: justify;
+    display: grid;
+    place-items: center center;
+}
+.information p{
+    width: 60%;
+}
+.information h2{
+   background-color: #fff;
+   margin: 1%;
+   padding: 8px;
+}
+@media only screen and (max-width: 800px) {
+    .images-container{
+    max-width: 100%;
+    display: grid;
+    place-items: center center;
+}
+
+.history{
+    width: 100%;
+    
+}
+.images-container .banner{
+    width: 100%;
+}
+
+  }
 
 
     </style>
