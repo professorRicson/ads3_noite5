@@ -127,13 +127,12 @@
   </div>
 </div>
 </div>
-
             </div>
 
           
 
-
         </div>
+
 
     </div>
    </div>
@@ -180,7 +179,7 @@
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  background: linear-gradient(-45deg, #fff 100%, #fff 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
@@ -199,7 +198,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(-45deg, #fff 0%, #00dbde 100% );
+  background: linear-gradient(-45deg, #fff 0%, #fff 100% );
   transition: scale 0.6s, rotate 0.6s, filter 1s;
 }
 
