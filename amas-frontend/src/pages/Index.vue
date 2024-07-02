@@ -135,13 +135,111 @@
 
 
     </div>
+
+    <div class="contaniner-main">
+      
+      <div class="contaniner-secundary-information">
+
+       <div class="contaniner-secundary-card">
+  
+                <img src="../assets/1.png">
+                <h1>Advocacia e Educação</h1>
+                <p>A AMAS trabalha incansavelmente para sensibilizar a sociedade e as autoridades
+                sobre as questões que afetam a comunidade LGBTQ+. Isso inclui a promoção de 
+                campanhas de conscientização, palestras e workshops educacionais para combater 
+                o preconceito e promover a aceitação</p>
+       </div>
+
+       <div class="contaniner-secundary-card">
+  
+              <img src="../assets/2.png">
+              <h1>Apoio e Acolhimento</h1>
+              <p>A organização oferece um espaço seguro e acolhedor para a comunidade LGBTQ+ da Mata Sul. Com grupos de apoio e aconselhamento, a AMAS ajuda a combater a solidão e o isolamento que muitos indivíduos LGBTQ+ enfrentam.</p>
+        </div>
+
+
+      <div class="contaniner-secundary-card">
+  
+              <img src="../assets/3.png">
+              <h1>Eventos Culturais e Comemorativos</h1>
+              <p>A AMAS promove eventos culturais que celebram a diversidade da comunidade LGBTQ+. Esses eventos não apenas celebram a cultura, mas também desafiam os estereótipos e destacam a riqueza da diversidade.</p>
+        </div>
+
+        <div class="contaniner-secundary-card">
+
+              <img src="../assets/4.png">
+              <h1>Luta por Direitos</h1>
+              <p>A AMAS é uma defensora ativa dos direitos da comunidade LGBTQ+. Através de parcerias com outras organizações e ações legais, a AMAS procura garantir que todos tenham acesso igual a direitos civis, incluindo o casamento igualitário, a adoção e a proteção contra a discriminação.</p>
+          </div>
+
+        <div class="contaniner-secundary-card">
+
+              <img src="../assets/5.png">
+              <h1>Rede de Apoio</h1>
+              <p>A AMAS estabelece parcerias com outras organizações, profissionais de saúde e líderes comunitários para criar redes de apoio sólidas para a comunidade LGBTQ+. Isso inclui o acesso a serviços de saúde sensíveis às questões de gênero e sexualidade.</p>
+          </div>
+       
+      </div>
+
+    </div>
+
+
+
    </div>
     
         
     </template>
     
     <style scoped>
-        
+
+    .contaniner-secundary-card img{
+
+        width: 90px;
+
+    }
+    
+    .contaniner-secundary-card h1{
+
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+}
+.contaniner-secundary-card p{
+
+font-size: 14px;
+text-align: justify;
+}
+
+.contaniner-secundary-card{
+
+width: 420px;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-items: center;
+flex-direction: column;
+margin: 1%;
+
+}
+
+    .contaniner-secundary-information{
+      background-color: #FDAFC5;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 28px;
+      margin-top: 2%;
+     
+    }
+        .contaniner-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          justify-items: center;
+        }
     *{
         margin: 0;
         font-family: "Quicksand", sans-serif;
