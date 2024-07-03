@@ -181,7 +181,38 @@
        
       </div>
 
+
     </div>
+
+    <div class="container-rugido">
+        
+      <div class="container-rugido-main-texts">
+
+
+            <h1>Baixe agora o App Rugido</h1>
+
+            <p>A plataforma, que está disponível para download no Google Play Store, é fruto do apoio e da parceria com o Fundo Brasil de Direitos Humanos, por meio do projeto "Tecer, resistir e enfrentar as LGBTfobias no interior pernambucano" e também com a EQUIP – Escola de Formação  Quilombo dos Palmares.</p>
+
+        <span>Disponivel nas seguintes plataformas:</span>
+
+            <div class="container-rugido-main-texts-buttons">
+
+              <a href="" class="button-site">Site</a>
+
+              <a href="" class="button-applestore">Apple</a>
+
+              <a href="" class="button-playstore">Play</a>
+
+            </div>
+
+
+        </div>
+
+        <div class="container-rugido-main-imgs">
+            <img src="../assets/6.png" alt="" class="banner-rugido">
+        </div>
+
+      </div>
 
 
 
@@ -191,6 +222,38 @@
     </template>
     
     <style scoped>
+.container-rugido-main-imgs{
+    width: 60%;
+    padding-left: 2%;
+}
+.container-rugido-main-imgs img{
+    width: 620px;
+}
+    .container-rugido{
+      margin-top: 2%;
+      background-color: rgba(208, 192, 195, 0.10);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+    .container-rugido-main-texts{
+      width: 40%;
+      padding: 2%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      flex-direction: column;
+    }
+    .container-rugido-main-texts h1{
+      text-align: center;
+    }
+    .container-rugido-main-texts p{
+      text-align: justify;
+    }
 
     .contaniner-secundary-card img{
 
