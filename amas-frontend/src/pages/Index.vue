@@ -232,6 +232,43 @@
       </div>
 
 
+      <div class="container-parcerias">
+
+            <div class="title">
+                <h1>Nossas Parcerias</h1>
+            </div>
+
+            <div class="parceiros">
+
+
+                <div class="card-parceiros">
+
+                  <img src="" alt="" srcset="">
+                    <h2>Elas</h2>
+                    <p>ONG que arrecada fundos para apoia coletivos  de mulheres , pessoas trans e liderança feminista de todo o Brasil.</p>
+                </div>
+
+                <div class="card-parceiros">
+                  <img src="" alt="" srcset="">
+                    <h2>Elas</h2>
+                    <p>ONG que tem um intuito de fortalecer os coletivos do interior de Pernambuco, nasceu da necessidade de interiorizar as políticas LGBT no estado de Pernambuco.</p>
+                </div>
+
+                <div class="card-parceiros">
+
+                  <img src="" alt="" srcset="">
+                    <h2>Elas</h2>
+                    <p>Movimento de Defesa da Cidadania e do Orgulho LGBTQIA+ de Petrolina</p>
+
+                </div>
+
+
+            </div>
+          
+
+      </div>
+
+
 
    </div>
     
@@ -239,6 +276,34 @@
     </template>
     
     <style scoped>
+
+    .container-parcerias{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
+    .card-parceiros{
+      width: 30%;
+    }
+
+    .card-parceiros p{
+      text-align: justify;
+      padding: 3%;
+      font-size: 16px;
+    }
+    .card-parceiros h2{
+      text-align: center;
+    }
+    .parceiros{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
     .fa-android{
       font-size: 28px!important;
     }
@@ -565,6 +630,13 @@ margin: 1%;
 }
 .container-rugido-main-texts{
   width: 100%;
+}
+.parceiros{
+  flex-direction: column;
+  width: 100%
+}
+.card-parceiros{
+  width: 100%
 }
 .history{
     width: 100%;
