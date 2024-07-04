@@ -192,19 +192,36 @@
             <h1>Baixe agora o App Rugido</h1>
 
             <p>A plataforma, que está disponível para download no Google Play Store, é fruto do apoio e da parceria com o Fundo Brasil de Direitos Humanos, por meio do projeto "Tecer, resistir e enfrentar as LGBTfobias no interior pernambucano" e também com a EQUIP – Escola de Formação  Quilombo dos Palmares.</p>
-
-        <span>Disponivel nas seguintes plataformas:</span>
+            
+        <span>Faça o download abaixo:</span>
+        <a href="" class="button-site">Site</a>
 
             <div class="container-rugido-main-texts-buttons">
 
-              <a href="" class="button-site">Site</a>
+              <div class="download-ios">
+               <div class="download-ios-banner">
+                <i class="fa-brands fa-apple"></i>
+               </div>
+                <div class="download-ios-text">
+                  <span>Disponivel na:</span><br>
+                  <a href="" class="button-applestore">AppleStore</a>
+                </div>
+              </div>
 
-              <a href="" class="button-applestore">Apple</a>
+              <div class="download-ios">
+               <div class="download-ios-banner">
+                <i class="fa-brands fa-android"></i>
+               </div>
+                <div class="download-ios-text">
+                  <span>Disponivel na:</span><br>
+                  <a href="" class="button-applestore">PlayStore</a>
+                </div>
+              </div>
 
-              <a href="" class="button-playstore">Play</a>
+              </div>
 
-            </div>
-
+              
+            
 
         </div>
 
@@ -222,13 +239,57 @@
     </template>
     
     <style scoped>
+    .fa-android{
+      font-size: 28px!important;
+    }
+    .container-rugido-main-texts-buttons{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+
+.download-ios{
+      background-color: #1C1B1E;
+      color: #fff!important;
+      display: flex;
+      flex-direction: row;
+      width: 140px;
+      border-radius: 8px;
+      padding: 4px;
+      margin: 2%;
+    }
+    .download-ios-banner{
+      display: grid;
+      place-items: center center;
+      margin-left: 3%;
+      margin-right: 5%;
+    }
+    .download-ios-text{
+      font-size: 14px;
+    }
+    .download-ios-banner i{
+      font-size: 42px;
+    }
+    .download-ios a{
+      color: #fff!important;
+      text-decoration: none;
+    }
+
+
 .container-rugido-main-imgs{
     width: 60%;
     padding-left: 2%;
+    display: grid;
+    place-items: center center;
 }
 .container-rugido-main-imgs img{
-    width: 620px;
+    width: 60%;
 }
+
     .container-rugido{
       margin-top: 2%;
       background-color: rgba(208, 192, 195, 0.10);
@@ -498,7 +559,13 @@ margin: 1%;
     display: grid;
     place-items: center center;
 }
-
+.container-rugido-main-imgs{  
+  
+  display: none;
+}
+.container-rugido-main-texts{
+  width: 100%;
+}
 .history{
     width: 100%;
     
