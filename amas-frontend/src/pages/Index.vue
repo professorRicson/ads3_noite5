@@ -243,21 +243,27 @@
 
                 <div class="card-parceiros">
 
-                  <img src="" alt="" srcset="">
+                  <div class="card-parceiros-img">
+                    <img src="../assets/elas.png" alt="" srcset="">
+                  </div>
                     <h2>Elas</h2>
                     <p>ONG que arrecada fundos para apoia coletivos  de mulheres , pessoas trans e liderança feminista de todo o Brasil.</p>
                 </div>
 
                 <div class="card-parceiros">
-                  <img src="" alt="" srcset="">
-                    <h2>Elas</h2>
+                  <div class="card-parceiros-img">
+                  <img src="../assets/interior.png" alt="" srcset="">
+                  </div>
+                    <h2>Rede LGBT do Interior de PE</h2>
                     <p>ONG que tem um intuito de fortalecer os coletivos do interior de Pernambuco, nasceu da necessidade de interiorizar as políticas LGBT no estado de Pernambuco.</p>
                 </div>
 
                 <div class="card-parceiros">
 
-                  <img src="" alt="" srcset="">
-                    <h2>Elas</h2>
+                  <div class="card-parceiros-img">
+                  <img src="../assets/cores.png" alt="" srcset="">
+                  </div>
+                    <h2>CORES</h2>
                     <p>Movimento de Defesa da Cidadania e do Orgulho LGBTQIA+ de Petrolina</p>
 
                 </div>
@@ -276,7 +282,10 @@
     </template>
     
     <style scoped>
-
+  .card-parceiros-img{
+    display: grid;
+    place-items: center center;
+  }
     .container-parcerias{
       display: flex;
       flex-direction: column;
