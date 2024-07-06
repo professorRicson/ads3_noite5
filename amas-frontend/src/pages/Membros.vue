@@ -18,10 +18,10 @@ export default {
   data() {
     return {
       members: [
-        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: 'assets/images/74472.png' },
-        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: 'assets/images/74472.png' },
-        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: 'assets/images/74472.png' },
-        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: 'assets/images/74472.png' },
+        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: '../assets/images/74472.png' },
+        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: '../assets/images/74472.png' },
+        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: '../assets/images/74472.png' },
+        { name: 'Nome Sobrenome', role: 'Cargo', imgSrc: '../assets/images/74472.png' },
       ]
     };
   }
