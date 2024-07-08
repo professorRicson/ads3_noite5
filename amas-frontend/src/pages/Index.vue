@@ -188,7 +188,7 @@
         
       <div class="container-rugido-main-texts">
 
-
+        <img src="../assets/6.png" alt="" class="banner-rugido-mobile" style="width: 320px; display: none;">
             <h1>Baixe agora o App Rugido</h1>
 
             <p>A plataforma, que está disponível para download no Google Play Store, é fruto do apoio e da parceria com o Fundo Brasil de Direitos Humanos, por meio do projeto "Tecer, resistir e enfrentar as LGBTfobias no interior pernambucano" e também com a EQUIP – Escola de Formação  Quilombo dos Palmares.</p>
@@ -226,7 +226,7 @@
         </div>
 
         <div class="container-rugido-main-imgs">
-            <img src="../assets/6.png" alt="" class="banner-rugido">
+          <img src="../assets/6.png" alt="" class="banner-rugido">
         </div>
 
       </div>
@@ -244,7 +244,7 @@
                 <div class="card-parceiros">
 
                   <div class="card-parceiros-img">
-                    <img src="../assets/elas.png" alt="" srcset="">
+                    <img src="../assets/elas.png" alt="" srcset="" width="130px">
                   </div>
                     <h2>Elas</h2>
                     <p>ONG que arrecada fundos para apoia coletivos  de mulheres , pessoas trans e liderança feminista de todo o Brasil.</p>
@@ -252,7 +252,7 @@
 
                 <div class="card-parceiros">
                   <div class="card-parceiros-img">
-                  <img src="../assets/interior.png" alt="" srcset="">
+                  <img src="../assets/interior.png" alt="" srcset="" width="220px">
                   </div>
                     <h2>Rede LGBT do Interior de PE</h2>
                     <p>ONG que tem um intuito de fortalecer os coletivos do interior de Pernambuco, nasceu da necessidade de interiorizar as políticas LGBT no estado de Pernambuco.</p>
@@ -261,7 +261,7 @@
                 <div class="card-parceiros">
 
                   <div class="card-parceiros-img">
-                  <img src="../assets/cores.png" alt="" srcset="">
+                  <img src="../assets/cores.png" alt="" srcset="" width="220px">
                   </div>
                     <h2>CORES</h2>
                     <p>Movimento de Defesa da Cidadania e do Orgulho LGBTQIA+ de Petrolina</p>
@@ -632,6 +632,9 @@ margin: 1%;
     max-width: 100%;
     display: grid;
     place-items: center center;
+}
+.banner-rugido-mobile{
+  display: block!important;;
 }
 .container-rugido-main-imgs{  
   
