@@ -17,13 +17,10 @@
   
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">Noticias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ajuda</a>
+            <a class="nav-link" href="#">Projetos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Denuncia</a>
@@ -274,6 +271,17 @@
 
       </div>
 
+      <footer class="bg-body-tertiary text-center">
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-body" href="#">Amas LGBT</a>
+  </div>
+
+</footer>
+
+    
+
 
 
    </div>
@@ -282,6 +290,7 @@
     </template>
     
     <style scoped>
+
   .card-parceiros-img{
     display: grid;
     place-items: center center;
