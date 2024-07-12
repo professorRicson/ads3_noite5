@@ -1,11 +1,11 @@
 <script setup>
 import Index from './pages/Index.vue';
-import Teste from './pages/Teste.vue'
+import Teste from './pages/Projetos.vue'
 </script>
 
 <template>
 
-  <Index/>
+  <Teste/>
 </template>
 
 <style scoped>
