@@ -1,5 +1,5 @@
 <script setup>
-import Index from './pages/Index.vue';
+import Index from './pages/Contato.vue';
 
 </script>
 

@@ -189,50 +189,102 @@
 
     <div class="container-rugido">
         
-      <div class="container-rugido-main-texts">
-
-
-            <h1>Baixe agora o App Rugido</h1>
-
-            <p>A plataforma, que está disponível para download no Google Play Store, é fruto do apoio e da parceria com o Fundo Brasil de Direitos Humanos, por meio do projeto "Tecer, resistir e enfrentar as LGBTfobias no interior pernambucano" e também com a EQUIP – Escola de Formação  Quilombo dos Palmares.</p>
-            
-        <span>Faça o download abaixo:</span>
-        <a href="" class="button-site">Site</a>
-
-            <div class="container-rugido-main-texts-buttons">
-
-              <div class="download-ios">
-               <div class="download-ios-banner">
-                <i class="fa-brands fa-apple"></i>
-               </div>
-                <div class="download-ios-text">
-                  <span>Disponivel na:</span><br>
-                  <a href="" class="button-applestore">AppleStore</a>
-                </div>
-              </div>
-
-              <div class="download-ios">
-               <div class="download-ios-banner">
-                <i class="fa-brands fa-android"></i>
-               </div>
-                <div class="download-ios-text">
-                  <span>Disponivel na:</span><br>
-                  <a href="" class="button-applestore">PlayStore</a>
-                </div>
-              </div>
-
-              </div>
-
+        <div class="container-rugido-main-texts">
+  
+          <img src="../assets/6.png" alt="" class="banner-rugido-mobile" style="width: 320px; display: none;">
+              <h1>Baixe agora o App Rugido</h1>
+  
+              <p>A plataforma, que está disponível para download no Google Play Store, é fruto do apoio e da parceria com o Fundo Brasil de Direitos Humanos, por meio do projeto "Tecer, resistir e enfrentar as LGBTfobias no interior pernambucano" e também com a EQUIP – Escola de Formação  Quilombo dos Palmares.</p>
               
-            
-
-        </div>
-
-        <div class="container-rugido-main-imgs">
+          <span>Faça o download abaixo:</span>
+          <a href="" class="button-site">Site</a>
+  
+              <div class="container-rugido-main-texts-buttons">
+  
+                <div class="download-ios">
+                 <div class="download-ios-banner">
+                  <i class="fa-brands fa-apple"></i>
+                 </div>
+                  <div class="download-ios-text">
+                    <span>Disponivel na:</span><br>
+                    <a href="" class="button-applestore">AppleStore</a>
+                  </div>
+                </div>
+  
+                <div class="download-ios">
+                 <div class="download-ios-banner">
+                  <i class="fa-brands fa-android"></i>
+                 </div>
+                  <div class="download-ios-text">
+                    <span>Disponivel na:</span><br>
+                    <a href="" class="button-applestore">PlayStore</a>
+                  </div>
+                </div>
+  
+                </div>
+  
+                
+              
+  
+          </div>
+  
+          <div class="container-rugido-main-imgs">
             <img src="../assets/6.png" alt="" class="banner-rugido">
+          </div>
+  
         </div>
 
+      
+      <div class="container-parcerias">
+
+<div class="title">
+    <h1>Nossas Parcerias</h1>
+</div>
+
+<div class="parceiros">
+
+
+    <div class="card-parceiros">
+
+      <div class="card-parceiros-img">
+        <img src="../assets/elas.png" alt="" srcset="" width="130px">
       </div>
+        <h2>Elas</h2>
+        <p>ONG que arrecada fundos para apoia coletivos  de mulheres , pessoas trans e liderança feminista de todo o Brasil.</p>
+    </div>
+
+    <div class="card-parceiros">
+      <div class="card-parceiros-img">
+      <img src="../assets/interior.png" alt="" srcset="" width="220px">
+      </div>
+        <h2>Rede LGBT do Interior de PE</h2>
+        <p>ONG que tem um intuito de fortalecer os coletivos do interior de Pernambuco, nasceu da necessidade de interiorizar as políticas LGBT no estado de Pernambuco.</p>
+    </div>
+
+    <div class="card-parceiros">
+
+      <div class="card-parceiros-img">
+      <img src="../assets/cores.png" alt="" srcset="" width="220px">
+      </div>
+        <h2>CORES</h2>
+        <p>Movimento de Defesa da Cidadania e do Orgulho LGBTQIA+ de Petrolina</p>
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+      <footer class="bg-body-tertiary text-center">
+
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2024 Copyright:
+  <a class="text-body" href="#">Amas LGBT</a>
+</div>
+
+</footer>
 
 
 
@@ -242,6 +294,44 @@
     </template>
     
     <style scoped>
+     .card-parceiros-img{
+    display: grid;
+    place-items: center center;
+  }
+    .container-parcerias{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .card-parceiros{
+      width: 30%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .card-parceiros p{
+      text-align: justify;
+      padding: 3%;
+      font-size: 16px;
+    }
+    .card-parceiros h2{
+      text-align: center;
+    }
+    .parceiros{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
     .fa-android{
       font-size: 28px!important;
     }
@@ -475,7 +565,7 @@ margin: 1%;
 }
 
 
-    nav{
+nav{
       font-family: "Quicksand", sans-serif;
       font-optical-sizing: auto;
       font-weight: bold;
@@ -572,6 +662,20 @@ margin: 1%;
 .history{
     width: 100%;
     
+}
+.parceiros{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
+    .card-parceiros{
+      width: 100%;
+    }
+.banner-rugido-mobile{
+  display: block!important;
 }
 .images-container .banner{
     width: 100%;
