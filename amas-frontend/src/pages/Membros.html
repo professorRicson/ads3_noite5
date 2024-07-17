@@ -2,78 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-membros">
-        <div class="profile-card-container">
-          <div class="profile-card" v-for="(member, index) in members" :key="index">
-            <img :src="member.imgSrc" :alt="'Profile Picture of ' + member.name" />
-            <div class="profile-info">
-              <h2>{{ member.name }}</h2>
-              <p>{{ member.role }}</p>
-            </div>
+    
+    <div class="contaniner-main">
+      
+        <div class="contaniner-secundary-information">
+  
+         <div class="contaniner-secundary-card">
+    
+                  <img src="../assets/1.png">
+                  <h1>Advocacia e Educação</h1>
+                  <p>A AMAS trabalha incansavelmente para sensibilizar a sociedade e as autoridades
+                  sobre as questões que afetam a comunidade LGBTQ+. Isso inclui a promoção de 
+                  campanhas de conscientização, palestras e workshops educacionais para combater 
+                  o preconceito e promover a aceitação</p>
+         </div>
+  
+         <div class="contaniner-secundary-card">
+    
+                <img src="../assets/2.png">
+                <h1>Apoio e Acolhimento</h1>
+                <p>A organização oferece um espaço seguro e acolhedor para a comunidade LGBTQ+ da Mata Sul. Com grupos de apoio e aconselhamento, a AMAS ajuda a combater a solidão e o isolamento que muitos indivíduos LGBTQ+ enfrentam.</p>
           </div>
+  
+  
+        <div class="contaniner-secundary-card">
+    
+                <img src="../assets/3.png">
+                <h1>Eventos Culturais e Comemorativos</h1>
+                <p>A AMAS promove eventos culturais que celebram a diversidade da comunidade LGBTQ+. Esses eventos não apenas celebram a cultura, mas também desafiam os estereótipos e destacam a riqueza da diversidade.</p>
+          </div>
+  
+          <div class="contaniner-secundary-card">
+  
+                <img src="../assets/4.png">
+                <h1>Luta por Direitos</h1>
+                <p>A AMAS é uma defensora ativa dos direitos da comunidade LGBTQ+. Através de parcerias com outras organizações e ações legais, a AMAS procura garantir que todos tenham acesso igual a direitos civis, incluindo o casamento igualitário, a adoção e a proteção contra a discriminação.</p>
+            </div>
+  
+          <div class="contaniner-secundary-card">
+  
+                <img src="../assets/5.png">
+                <h1>Rede de Apoio</h1>
+                <p>A AMAS estabelece parcerias com outras organizações, profissionais de saúde e líderes comunitários para criar redes de apoio sólidas para a comunidade LGBTQ+. Isso inclui o acesso a serviços de saúde sensíveis às questões de gênero e sexualidade.</p>
+            </div>
+         
         </div>
+  
+  
       </div>
-    
-    
-    <style scoped>
-    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
-    
-    .container-membros {
-      background-color: #555;
-      border-radius: 20px;
-      width: 90%;
-      height: 90%;
-      margin: auto;
-      margin-top: 50px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    .profile-card-container {
-      padding-top: 50px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 800px;
-      margin: 20px auto;
-    }
-    
-    .profile-card {
-      flex-basis: calc(50% - 50px);
-      margin-bottom: 30px;
-      background-color: gray;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      padding: 15px;
-    }
-    
-    .profile-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-      border-radius: 8px 8px 0 0;
-    }
-    
-    .profile-info {
-      padding: 20px;
-    }
-    
-    .profile-info h2 {
-      margin: 0 0 10px;
-      font-size: 24px;
-    }
-    
-    .profile-info p {
-      margin: 0;
-      font-size: 18px;
-      color: #fff;
-    }
-    </style>
+  
 </body>
 </html>
