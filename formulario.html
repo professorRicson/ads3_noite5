@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../Index.html">
+                <img src="../assets/cutLogo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                AmasLGBT
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Blog/blog.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Projetos.html">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://denuncie.rugidolgbtqi.com.br/">Denuncia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Doação.html">Doação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/formulario.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Membros.html">Membros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <h3 class="heading mb-4">Queremos ouvir você!</h3>
+                            <p>Deixe sua opinião, dúvida ou reclamação.</p>
+                            <p><img src="../images/undraw-contact.svg" alt="Imagem" class="img-fluid"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="mb-5" action="cadasrtro.php" method="post">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <select class="form-select" name="atendimento" aria-label="Escolha o Atendimento">
+                                            <option selected>Escolha o Atendimento:</option>
+                                            <option value="Duvida">Dúvida</option>
+                                            <option value="Reclamacao">Reclamação</option>
+                                            <option value="Sugestao">Sugestão</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <label for="Nome">Nome:</label>
+                                        <input type="Nome" Name="Nome">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <label for="Email">E-mail:</label>
+                                        <input type="Email" class="form-control" name="Email" id="E-mail" placeholder="Seu E-mail">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <label for="Telefone">Telefone:</label>
+                                        <input type="Telefone" class="form-control" name="Telefone" id="Telefone" placeholder="Seu Telefone">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <label for="Cidade">Cidade:</label>
+                                        <input type="Cidade" class="form-control" name="Cidade" id="Cidade" placeholder="Sua Cidade">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <label for="Message">Mensagem:</label>
+                                        <textarea class="form-control" name="Mensagem" id="message" cols="30" rows="7" placeholder="Escreva sua Mensagem"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

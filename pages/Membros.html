@@ -13,6 +13,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5bdc924188.js" crossorigin="anonymous"></script>
+
+    <style>
+      .team-member {
+          background-color: white;
+          padding: 20px;
+          border-radius: 10px;
+          text-align: center;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      .team-member img {
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+      }
+  
+      .social-icons a {
+          margin: 0 10px;
+          color: #333;
+          font-size: 20px;
+      }
+  </style>
 </head>
 
 <body>
@@ -31,7 +54,7 @@
   
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../pages/Blog/blog.html">Noticias</a>
@@ -42,11 +65,9 @@
           <li class="nav-item">
             <a class="nav-link" href="https://denuncie.rugidolgbtqi.com.br/"target ="_blank">Denuncia</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link" href="Doação.html">Doação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/Formulario.html">Contato</a>
+            <a class="nav-link" href="../pages/formulario.html">Contato</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../pages/Membros.html">Membros</a>
@@ -55,59 +76,80 @@
   
         </ul>
         <form class="d-flex" role="search">
-          <a class="fa-brands fa-instagram" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer"></a>
+          <a class="fa-brands fa-instagram" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer" style="background-color: #F8F9FA!important;"></a>
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
+          
         </form>
       </div>
     </div>
   </nav>
 
+<div class="container">
+    <div class="text-center my-5">
+        <h2>Conheça as pessoas responsaveis pela AMAS LGBT</h2>
+        <p>Abaixo você vai conhecer alguns membros responsaveis por gerenciar e administrar a ONG AMAS LGBT.</p>
+    </div>
 
-    <div class="container-membros">
-        <div class="profile-card-container">
-            <div class="profile-card">
-                <div class="profile-img-container">
-                    <img src="../assets/foto_Hewrya .jpg" alt="Profile Picture 1">
-                </div>
-                <div class="profile-info">
-                    <h2>Hewrya Lima</h2>
-                    <p>Presidente</p>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <div class="profile-img-container">
-                    <img src="../assets/Jonatha Raphael.jpg" alt="Profile Picture 2">
-                </div>
-                <div class="profile-info">
-                    <h2>Jonatha Raphael</h2>
-                    <p>Vice presidente</p>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <div class="profile-img-container">
-                    <img src="../assets/Antônia Luize.jpg" alt="Profile Picture 2">
-                </div>
-                <div class="profile-info">
-                    <h2>Antônia Luize</h2>
-                    <p>Tesoureira</p>
-                </div>
-            </div>
-
-            <div class="profile-card">
-                <div class="profile-img-container">
-                    <img src="../assets/Gil Marcyelly.jpg" alt="Profile Picture 2">
-                </div>
-                <div class="profile-info">
-                    <h2>Gil Marcyelly</h2>
-                    <p>Secretária geral</p>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="team-member" style="background-color: #fccac1;">
+                <img src="../assets/foto_Hewrya .jpg" alt="Jocelyn Schleifer">
+                <h4>Hewrya Lima</h4>
+                <p>Presidente</p>
+                <p>Pernambucana, Acadêmica em Educação fisica, Ativista LGBTQIAPN+ e Feminista..</p>
+                <div class="social-icons">
+                  <a class="fa-brands fa-instagram" href="https://www.instagram.com/hm.lima/" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa-brands fa-facebook" href="https://www.facebook.com/share/ypZiZ9LheMezSP86/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa-brands fa-twitter" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer"></a>
+                    
                 </div>
             </div>
         </div>
+
+        <div class="col-md-4">
+            <div class="team-member" style="background-color: #cbe4fb;">
+                <img src="../assets/Jonatha Raphael.jpg" alt="Martin Donin">
+                <h4>Jonatha Raphael</h4>
+                <p>Vice-presidente</p>
+                <p>Pernambucano, Profissional de Educação Fisica e Tecnico de time de futsal.</p>
+                <div class="social-icons">
+                  <a class="fa-brands fa-instagram" href="https://www.instagram.com/jonatha.raphael/" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa-brands fa-facebook" href="https://www.facebook.com/share/tBdJnFGQZKcqYn8S/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa-brands fa-twitter" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-member" style="background-color: #fde3b7;">
+              <img src="../assets/Gil Marcyelly.jpg" alt="Jordyn Septimus">
+              <h4>Gil Marcyelly</h4>
+              <p>Secretaria geral</p>
+              <p>Pernambucana e Ativista pelos direitos LGBTIQAPN_+.</p>
+              <div class="social-icons">
+                <a class="fa-brands fa-instagram" href="https://www.instagram.com/gilmarcyelly/" target="_blank" rel="noopener noreferrer"></a>
+                <a class="fa-brands fa-facebook" href="https://www.facebook.com/share/yG3QAtQ31izAgvgH/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"></a>
+                <a class="fa-brands fa-twitter" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 m-2">
+        <div class="team-member" style="background-color: #f9bdff;">
+            <img src="../assets/Antônia Luize.jpg" alt="Jordyn Septimus">
+            <h4>Antônia Luize</h4>
+            <p>Tesoureira</p>
+            <p>Pernambucana, Ativista pelos direitos LGBTIQAPN+ e professora.</p>
+            <div class="social-icons">
+              <a class="fa-brands fa-instagram" href="https://www.instagram.com/hakyllajabour/" target="_blank" rel="noopener noreferrer"></a>
+              <a class="fa-brands fa-facebook" href="https://www.facebook.com/share/jTSZEuyjnLYBeyah/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer"></a>
+              <a class="fa-brands fa-twitter" href="https://www.instagram.com/amaslgbt/" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </div>
     </div>
-  </div>
+    </div>
+</div>
+
 
   <footer class="bg-body-tertiary text-center">
 
@@ -121,6 +163,8 @@
 
 
 </div>
+
+
 </body>
 
 <style>
@@ -140,67 +184,16 @@ nav {
     color: #555555;
 } 
 
-.container-membros {
-    background-color: #a3a3a3;
-    border-radius: 20px;
-    width: 98%;
-    height: 98%;
-    margin: auto;
-    margin-top: 50px;
+.fa-brands{
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 16px;
+  text-decoration: none!important;
+}
+.fa-brands:hover{
+  background-color: aqua;
 }
 
-.profile-card-container {
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 20px auto;
-}
 
-.profile-card {
-  flex-basis: calc(50% - 50px);
-    margin-bottom: 30px;
-    background-color: gray;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 15px;
-    text-align: center;
-}
-
-.profile-img-container {
-  width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.profile-img-container img {
-  width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
-
-}
-
-.profile-info {
-    padding: 20px;
-}
-
-.profile-info h2 {
-    margin: 0 0 10px;
-    font-size: 24px;
-}
-
-.profile-info p {
-    margin: 0;
-    font-size: 18px;
-    color: #363636;
-}
 </style>
 </html>
