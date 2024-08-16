@@ -37,7 +37,7 @@
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/Blog/blog.html">Noticias</a>
+              <a class="nav-link" href="../pages/blog.html">Noticias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/Projetos.html">Projetos</a>
@@ -47,7 +47,7 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link" href="../pages/formulario.html">Contato</a>
+              <a class="nav-link" href="#">Contato</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/Membros.html">Membros</a>
@@ -73,7 +73,7 @@
               <h3 class="heading mb-4">Queremos ouvir você!</h3>
               <p>Deixe sua opinião, duvida ou reclamação.</p>
 
-              <p><img src="../images/undraw-contact.svg" alt="Image" class="img-fluid"></p>
+              <p><img src="../assets/Contato.png" alt="Image" class="img-fluid"></p>
 
 
             </div>
@@ -85,6 +85,11 @@
                     <input type="text" class="form-control" name="name" id="name" placeholder="Seu Nome">
                   </div>
                 </div>
+                <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="number" class="form-control" name="idade" id="idade" placeholder="Sua idade">
+                </div>
+              </div>
               
                 <div class="row">
                   <div class="col-md-12 form-group">
@@ -93,7 +98,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Digite seu telefone">
+                    <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Digite seu telefone" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                   </div>
                 </div>
                 <div class="row">
@@ -133,11 +138,9 @@
     
     
 
-    <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script>
+      
+    </script>
 
   </body>
 </html>
